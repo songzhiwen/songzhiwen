@@ -1,4 +1,5 @@
-import { Alert, Checkbox, Icon } from 'antd';
+import { AlipayCircleOutlined, TaobaoCircleOutlined, WeiboCircleOutlined } from '@ant-design/icons';
+import { Alert, Checkbox } from 'antd';
 import { FormattedMessage, formatMessage } from 'umi-plugin-react/locale';
 import React, { Component } from 'react';
 import { Link } from 'umi';
@@ -215,9 +216,9 @@ class Login extends Component {
           </Submit>
           <div className={styles.other}>
             <FormattedMessage id="user-login.login.sign-in-with" />
-            <Icon type="alipay-circle" className={styles.icon} theme="outlined" />
-            <Icon type="taobao-circle" className={styles.icon} theme="outlined" />
-            <Icon type="weibo-circle" className={styles.icon} theme="outlined" />
+            <AlipayCircleOutlined className={styles.icon} />
+            <TaobaoCircleOutlined className={styles.icon} />
+            <WeiboCircleOutlined className={styles.icon} />
             <Link className={styles.register} to="/user/register">
               <FormattedMessage id="user-login.login.signup" />
             </Link>

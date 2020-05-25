@@ -1,5 +1,7 @@
 import { CloseCircleOutlined } from '@ant-design/icons';
-import { Button, Card, Col, DatePicker, Form, Input, Popover, Row, Select, TimePicker } from 'antd';
+import { Form } from '@ant-design/compatible';
+import '@ant-design/compatible/assets/index.css';
+import { Button, Card, Col, DatePicker, Input, Popover, Row, Select, TimePicker } from 'antd';
 import React, { useState } from 'react';
 import { PageHeaderWrapper } from '@ant-design/pro-layout';
 import { connect } from 'dva';

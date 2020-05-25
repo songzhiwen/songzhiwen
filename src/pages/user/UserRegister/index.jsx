@@ -1,4 +1,6 @@
-import { Form, Button, Col, Input, Popover, Progress, Row, Select, message } from 'antd';
+import { Form } from '@ant-design/compatible';
+import '@ant-design/compatible/assets/index.css';
+import { Button, Col, Input, Popover, Progress, Row, Select, message } from 'antd';
 import { FormattedMessage, formatMessage } from 'umi-plugin-react/locale';
 import React, { useState, useEffect } from 'react';
 import Link from 'umi/link';
