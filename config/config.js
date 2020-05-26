@@ -169,7 +169,7 @@ export default {
               routes:[
                 {name: '基础表单',path: '/form/formbasicform',component: './Form/FormBasicForm'},
                 {name: '高级表单',path: '/form/formadvancedform',component: './Form/FormAdvancedForm'},
-                {name: '高级表单',path: '/form/formstepform',component: './Form/FormStepForm'},
+                {name: '分布表单',path: '/form/formstepform',component: './Form/FormStepForm'},
               ]
             },
             {

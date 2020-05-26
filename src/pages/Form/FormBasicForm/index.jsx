@@ -1,7 +1,6 @@
 import { InfoCircleOutlined } from '@ant-design/icons';
-import { Form } from '@ant-design/compatible';
 import '@ant-design/compatible/assets/index.css';
-import { Button, Card, DatePicker, Input, InputNumber, Radio, Select, Tooltip } from 'antd';
+import { Form,Button, Card, DatePicker, Input, InputNumber, Radio, Select, Tooltip } from 'antd';
 import { FormattedMessage, formatMessage } from 'umi-plugin-react/locale';
 import React from 'react';
 import { PageHeaderWrapper } from '@ant-design/pro-layout';
@@ -14,8 +13,8 @@ const { RangePicker } = DatePicker;
 const { TextArea } = Input;
 
 const FormBasicForm = props => {
-  const { submitting } = props;
   const [form] = Form.useForm();
+  const { submitting } = props;
   const [showPublicUsers, setShowPublicUsers] = React.useState(false);
   const formItemLayout = {
     labelCol: {

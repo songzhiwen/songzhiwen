@@ -1,5 +1,6 @@
 import React from 'react';
-import { Form } from '@ant-design/compatible';
+// import { Form } from '@ant-design/compatible';
+import { Form} from 'antd';
 import '@ant-design/compatible/assets/index.css';
 import { Alert, Button, Descriptions, Divider, Statistic, Input } from 'antd';
 import { connect } from 'dva';
